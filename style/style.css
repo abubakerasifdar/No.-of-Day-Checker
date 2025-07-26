@@ -1,0 +1,46 @@
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 80vh;
+            width: 85%;
+            margin: 0 auto;
+        }
+        #root{
+           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+           padding:50px 30px;
+        }
+
+        input {
+            height: 40px;
+            width: 75%;
+
+        }
+
+        button {
+            height: 46px;
+            background-color: blue;
+            color: white;
+            font-size: large;
+            font-weight: bold;
+
+
+        }
+
+        #output {
+            height: 46px;
+            background-color: red;
+            color: white;
+            display: none;
+            width: 93%;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 10px auto;
+            font-size: large;
+            font-weight: bold;
+        }
+  
